@@ -574,7 +574,7 @@ input:checked+.slider:before {
 }
 
 .banner-slider .bs-nav-cont {
-    top: 68%;
+    top: 72%;
     position: absolute;
     right: 9%;
     z-index: 1;
@@ -597,7 +597,7 @@ input:checked+.slider:before {
 }
 
 .banner-slider .bs-dots {
-    top: 68%;
+    top: 73%;
     height: 48px;
     left: 50%;
     position: absolute;
@@ -671,6 +671,170 @@ input:checked+.slider:before {
     cursor: pointer;
     color: #00c7ff;
     line-height: 1.8;
+}
+.download-app-floating {
+    height: 56px;
+    width: 56px;
+    background-image: linear-gradient(104deg, #29384b 19%, #394d66 92%);
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 25px;
+    z-index: 10;
+}
+
+.download-app-floating img{
+    height: 50px;
+    width: 100%;
+}
+
+@media(max-width:1024px){
+
+    .banner-slider .bs-dots {
+        top: 77%;
+        left: 56%;
+        transform: translateX(-45%);
+    }
+    .detail{
+        gap: 10px;
+        top: 53%;
+        transform: translateY(-42%);
+    }
+    .detail #name img{
+        height: 37%;
+        width: 34%;
+        
+    }
+    .detail #title{
+        font-size: 15px;
+        width: 36%;
+        gap: 5px;
+        
+    }
+    .detail #btn button{
+        padding: 10px;
+    }
+    .detail #btn{
+        gap: 10px;
+    }
+    .detail #btn>#btn1{
+        height: 36px;
+        width: 85px;
+    }
+    .detail #btn>#btn1>i{
+        font-size: 16px;
+    }
+    .detail #btn>#btn2{
+        width: 95px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .detail #btn i{
+        font-size: 25px;
+    }
+    .detail #btn p{
+        font-size: 13px;
+    }
+    .detail #btn>div{
+        gap: 10px;
+    }
+    
+    .banner-slider .bs-nav-cont {
+        top: 77%;
+        right: 9%;;
+    }
+    
+    .banner-slider .bs-nav-cont .v-center {
+        font-size: 13px;
+        padding: 7px;
+    }
+    
+    .banner-slider .bs-nav-cont .v-center:hover .next-arrow {
+        transform: scale(1.3);
+    }
+    .bc-platform-homepage {
+        right: 35px;
+        top: 80px;
+    }
+}
+@media(max-width:768px){
+    
+    .bc-platform-homepage {
+        right: 11px;
+        top: 65px;
+    }
+    .detail{
+        gap: 6px;
+        top: 49%;
+        transform: translateY(-43%);
+    }
+    .detail #name img{
+        height: 16%;
+        width: 40%;
+    }
+    .detail #title{
+        font-size: 12px;
+        width: 36%;
+        gap: 3px;
+        
+    }
+    .detail #btn button{
+        padding: 7px;
+    }
+    .detail #btn{
+        gap: 5px;
+    }
+    .detail #btn>#btn1{
+        height: 29px;
+        width: 70px;
+    }
+    .detail #btn>#btn1>i{
+        font-size: 12px;
+    }
+    .detail #btn>#btn2{
+        height: 29px;
+        width: 70px;
+        font-size: 13px;
+    }
+    .detail #btn i{
+        font-size: 18px;
+    }
+    .detail #btn p{
+        font-size: 11px;
+    }
+    .detail #btn>div{
+        gap: 4px;
+    }
+    
+    .banner-slider .bs-nav-cont {
+        top: 77%;
+        right: 9%;;
+    }
+    
+    .banner-slider .bs-nav-cont .v-center {
+        font-size: 11px;
+        padding: 4px;
+    }
+    
+    .banner-slider .bs-nav-cont .v-center:hover .next-arrow {
+        transform: scale(1.3);
+    }
+    .banner-slider .bs-dots {
+        top: 74%;
+        left: 56%;
+        transform: translateX(-36%);
+    }
+    .download-app-floating {
+        height: 55px;
+        width: 53px;
+        right: 4%;
+        bottom: 6%;
+    }
+    
 }
 
 
@@ -830,9 +994,213 @@ input:checked+.slider:before {
       transform: scale(0, 0);
     }
     100% {
-      transform: scale(2,1.5);
+        transform: scale(2,1.5);
     }
-  }
+}
+
+.movie{
+    width: 100%;
+    position: relative;
+    padding: 0 4.16%;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.movie::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for Chrome, Safari */
+}
+.genre{
+    flex: 0 0 auto; /* Prevent shrinking */
+    width: 360px;
+    
+}
+.genre img{
+    width: 100%;
+    height:100%;
+}
+
+@media(max-width:1024px){
+
+    .video-card{
+        padding-top: 20px;
+    }
+    
+    .video-card>p{    
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 5px;
+    }
+    
+    .main-box{
+        height: 200px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+      
+    .box{
+        height: 200px;
+        width: 132px;
+    }
+    
+    .movie{
+        height: 80px;
+        gap: 14px;
+    }
+    .genre{
+        width: 180px; 
+    }
+      
+    
+    .hide{
+        height: 68%;
+        width: 100%;
+        padding: 4px;
+        border-radius: 6px;
+        margin: 33px;
+    }
+    .hide-up{
+        height: 58%;
+    }
+    
+    .hide-down{
+        width: 100%;
+        height: 41%;
+        gap: 3px;
+        margin-top: 3px;
+        padding: 0px 0px 0px 5px;
+    }
+    .hide-title{
+        gap: 6px;
+        
+    }
+    .hide-title>span{
+        font-size: 7px;
+    }
+    .hide-title>button{
+        padding: 1px 2px;
+        font-size: 4px;
+    }
+    .hide-title>p{
+        font-size: 5px;
+    }
+    .hide-icon{
+        gap: 3px;
+        font-size: 9px;
+    }
+    .hide-btn{
+        gap: 9px;
+    }
+    .hide-play{
+        gap: 4px;
+        
+    }
+    .hide-btn>p{
+        font-size: 5px;
+    }
+    .hide-btn>button{
+        height: 14px;
+        font-size: 6px;
+        border-radius: 5px;
+        padding: 3px;
+    }
+    .box:hover .hide{
+        transform: scale3d(2,1.5,2);
+    }
+}
+@media(max-width:768px){
+    
+    .video-card{
+        padding-top: 12px;
+    }
+    
+    .video-card>p{    
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 5px;
+    }
+    
+    .main-box{
+        height: 165px;
+        gap: 7px;
+        margin-top: 15px;
+    }
+      
+    .box{
+        height: 162px;
+        width: 97px;
+    }
+    
+    .movie{
+        height: 80px;
+        gap: 14px;
+    }
+    .genre{
+        width: 180px; 
+    }
+      
+    
+    .hide{
+        height: 67%;
+        padding: 4px;
+        border-radius: 6px;
+        margin: 27px;
+    }
+    .hide-up{
+        height: 58%;
+    }
+    
+    .hide-down{
+        height: 41%;
+        gap: 2px;
+        margin-top: 3px;
+        padding: 0px 0px 0px 5px;
+    }
+    .hide-title{
+        gap: 2px;
+        
+    }
+    .hide-title>span{
+        font-size: 6px;
+    }
+    .hide-title>p{
+        font-size: 4px;
+    }
+    .hide-title>button{
+        padding: 1px 2px;
+        font-size: 3px;
+    }
+    .hide-icon{
+        gap: 2px;
+        font-size: 7px;
+    }
+    .hide-btn{
+        gap: 4px;
+    }
+    .hide-play{
+        gap: 4px;
+        
+    }
+    .hide-btn>p{
+        font-size: 4px;
+    }
+    .hide-btn>button{
+        height: 10px;
+        font-size: 4px;
+        border-radius: 4px;
+        padding: 3px
+    }
+    .box:hover .hide{
+        transform: scale3d(2,1.5,2);
+    }
+    
+}
+
 
 #r1-c1{
     background-image: url(https://qqcdnpictest.mxplay.com/pic/b1cdde5e558e08e2618a68e55868b55e/en/2x3/320x480/test_pic1738221531266.webp);
@@ -1077,52 +1445,6 @@ input:checked+.slider:before {
     background-image: url(https://qqcdnpictest.mxplay.com/pic/f206d4e020f530215513cbe6ad13e5d7/en/2x3/320x480/1e181873c0d676e992c9c1ed7fbd2b18_1280x1920.webp);
 }
 
-.movie{
-    width: 100%;
-    position: relative;
-    padding: 0 4.16%;
-    height: 200px;
-    display: flex;
-    gap: 30px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    margin-top: 20px;
-    flex-direction: row;
-}
-.movie::-webkit-scrollbar {
-    display: none; /* Hides scrollbar for Chrome, Safari */
-}
-.genre{
-    flex: 0 0 auto; /* Prevent shrinking */
-    width: 360px;
-    
-}
-.genre img{
-    width: 100%;
-    height:100%;
-}
-
-.download-app-floating img{
-    height: 50px;
-    width: 100%;
-}
-
-.download-app-floating {
-    height: 56px;
-    width: 56px;
-    background-image: linear-gradient(104deg, #29384b 19%, #394d66 92%);
-    border-radius: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: fixed;
-    right: 40px;
-    bottom: 25px;
-    z-index: 10;
-}
 
 
 
@@ -1571,12 +1893,6 @@ button {
 .company-links .company-link:hover {
     color: #0079ff;
     transform: scale(1.1)
-}
-
-@media(max-width: 720px) {
-    .company-links .company-link {
-        pointer-events:none
-    }
 }
 
 @media(max-width: 720px) {
