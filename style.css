@@ -527,6 +527,10 @@ input:checked+.slider:before {
         width: 112px;
         height: 17.5px;
     }
+    .header-container .hc_content .hc_right-content .fa-magnifying-glass {
+        height: 10%;
+        width: 17px
+    }
 
 
 }
@@ -1080,6 +1084,88 @@ input:checked+.slider:before {
         width: 100%;
     }
 
+}
+
+@media(max-width:550px) {
+
+    .bc-platform-homepage {
+        display: none;
+    }
+
+    .banner-slider .bs-dots .dot {
+        height: 3px;
+        margin-right: 3px;
+        margin-top: 30px;
+        opacity: 0.4;
+        width: 4px;
+    }
+
+    .detail {
+        gap: 6px;
+        top: 66%;
+        transform: translate(-9%, -48%);
+    }
+
+    .detail #name img {
+        height: 18%;
+        width: 50%;
+    }
+
+    .detail #title #titlepara {
+        display: none;
+        /* gap: 3px; */
+    }
+
+    .detail #btn button {
+        padding: 7px;
+    }
+
+    .detail #btn {
+        gap: 5px;
+    }
+
+    .detail #btn>#btn1 {
+        height: 18px;
+        width: 43px;
+    }
+
+    .detail #btn>#btn1>i {
+        font-size: 12px;
+    }
+
+    .detail #btn>#btn2 {
+        height: 21px;
+        width: 45px;
+        font-size: 8px;
+    }
+
+    .detail #btn i {
+        font-size: 11px;
+    }
+
+    .detail #btn p {
+        font-size: 9px;
+    }
+
+    .banner-slider .bs-nav-cont {
+        top: 86%;
+        right: 10%;
+    }
+
+    .banner-slider .bs-nav-cont .v-center {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .banner-slider .bs-nav-cont .v-center:hover .next-arrow {
+        transform: scale(1.2);
+    }
+
+    .banner-slider .bs-dots {
+        top: 79%;
+        left: 56%;
+        transform: translateX(-42%);
+    }
 }
 
 
