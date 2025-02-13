@@ -485,7 +485,7 @@ input:checked+.slider:before {
         padding: 0px 12px;
     } */
     .header-container .hc_content {
-        margin-left: 5px;
+        margin-left: 13px;
         width: 35%;
     }
     .header_tabs {
@@ -497,12 +497,12 @@ input:checked+.slider:before {
     }
     
     .header_tabs .ht_tab .ht_title {
-        font-size: 9px;
+        font-size: 8px;
     }
     
     .header_tabs .ht_tab .ht_title .fa-house {
-        width: 12px;
-        transform: scale(1.15);
+        width: 10px;
+        transform: scale(1.1);
     }
 
     .header-container .hc_content .hc_right-content {
