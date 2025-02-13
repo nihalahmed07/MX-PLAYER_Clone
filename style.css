@@ -509,6 +509,7 @@ input:checked+.slider:before {
         width: 100%;
         left: 27%;
         font-size: 8px;
+        font-weight: bold;
     }
     
     .header-container .hc_content .hc_right-content>*:not(:first-child) {
