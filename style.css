@@ -488,7 +488,7 @@ input:checked+.slider:before {
     }
 }
 @media(max-width:560px) {
-    .header-container .hc_content .header_tabs .ht_tab .ht_extra {
+    .header-container .hc_content .ht_extra560 {
         display: none;
     }
 }
