@@ -502,7 +502,7 @@ input:checked+.slider:before {
     }
 } */
 
-@media(max-width:420px) {
+@media(max-width:430px) {
 
     .header-container .hc_content .ht_extra560,
     .header-container .hc_content .header_tabs .ht_tab .ht_extra800 {
