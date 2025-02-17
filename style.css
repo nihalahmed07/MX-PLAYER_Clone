@@ -492,11 +492,16 @@ input:checked+.slider:before {
         display: none;
     }
 }
+/* @media(max-width:560px) {
+    .header-container .hc_content .ht_extra560 {
+        display: flex;
+    }
+} */
 
 @media(max-width:430px) {
 
     .header-container .hc_content .ht_extra560, .header-container .hc_content .header_tabs .ht_tab .ht_extra800{
-        display: unset;
+        display: flex;
     }
 
     /* .header-container {
