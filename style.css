@@ -495,6 +495,10 @@ input:checked+.slider:before {
 
 @media(max-width:430px) {
 
+    .header-container .hc_content .ht_extra560, .header-container .hc_content .header_tabs .ht_tab .ht_extra800{
+        display: unset;
+    }
+
     /* .header-container {
         left: 50%;
         width: 100%;
