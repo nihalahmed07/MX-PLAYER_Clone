@@ -502,7 +502,7 @@ input:checked+.slider:before {
     }
 } */
 
-@media(max-width:440px) {
+@media(max-width:420px) {
 
     .header-container .hc_content .ht_extra560,
     .header-container .hc_content .header_tabs .ht_tab .ht_extra800 {
@@ -2234,11 +2234,7 @@ button {
         padding-right: 0.9%;
     }
 }
-@media(max-width:440px){
-    .bottom-container {
-        font-size: 8px;
-    }
-}
+
 
 .about-us {
     flex-basis: 33%
