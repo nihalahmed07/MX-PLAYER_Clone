@@ -494,6 +494,7 @@ input:checked+.slider:before {
     .header-container .hc_content .ht_extra560 {
         display: none;
     }
+
     .header-container .hc_content .hc_right-content {
         left: 12%;
     }
@@ -519,7 +520,7 @@ input:checked+.slider:before {
 
 @media(max-width:440px) {
 
-    .header-container .hc_content .ht_extra440{
+    .header-container .hc_content .ht_extra440 {
         display: none;
     }
 
@@ -534,49 +535,57 @@ input:checked+.slider:before {
     }
 
     .header-container .hc_content .hc_right-content .fa-magnifying-glass {
-       /* display: none; */
+        /* display: none; */
     }
 
     .menu_content .menu_dropdown {
-    display:none
+        display: none
     }
 }
+
 @media(max-width:420px) {
 
-    .header-container .hc_content .ht_extra440{
+    .header-container .hc_content .ht_extra440 {
         display: none;
     }
+
     .header-container .hc_content .hc_right-content {
         width: 100%;
         left: 8%;
     }
 }
+
 @media(max-width:410px) {
 
-    .header-container .hc_content .ht_extra440{
+    .header-container .hc_content .ht_extra440 {
         display: none;
     }
+
     .header-container .hc_content .hc_right-content {
         width: 100%;
         /* left: 8%; */
     }
 }
+
 @media(max-width:400px) {
 
-    .header-container .hc_content .ht_extra440{
+    .header-container .hc_content .ht_extra440 {
         display: none;
     }
+
     .header-container .hc_content .hc_right-content {
         width: 100%;
         left: -7%;
     }
 
 }
+
 @media(max-width:380px) {
 
-    .header-container .hc_content .ht_extra440{
+    .header-container .hc_content .ht_extra440 {
         display: none;
     }
+
     .header-container .hc_content .hc_right-content {
         width: 100%;
         left: -25%;
@@ -616,7 +625,8 @@ input:checked+.slider:before {
     animation-fill-mode: forwards;
 }
 
-.banner-slider .bs-slide .banner-card>img {
+.banner-slider .bs-slide .banner-card>img,
+.banner-slider .bs-slide .banner-card>video {
     height: 100%;
     width: 100%;
 }
@@ -1625,10 +1635,12 @@ input:checked+.slider:before {
     }
 
 }
-@media(max-width:440px){
+
+@media(max-width:440px) {
     .video-card {
         padding-top: 8px;
     }
+
     .video-card>p {
         font-size: 12px;
     }
